@@ -8,15 +8,56 @@
 
 #ifndef Header_h
 #define Header_h
-#include<string>
+
+using namespace std;
 
 class Creature{
-    public:
-        Creature(string);
-        virtual void DoAction()=0;
-        virtual void DrawOnScreen()=0;
-    protected:
-        string CreatureName;
+public:
+    
+    Creature() {}
+    Creature(string name);
+    virtual void DoAction()=0;
+    virtual void DrawOnScreen()=0;
+    
+protected:
+    string CreatureName;
+};
+
+class Player: public Creature {
+public:
+    
+    Player(string name);
+    void DoAction();
+    void DrawOnScreen();
+    
+};
+
+class Monster: public Creature {
+public:
+    
+    Monster() {}
+    Monster(string name);
+    void DoAction();
+    void DrawOnScreen();
+    
+};
+
+class WildPig: public Monster {
+public:
+    
+    WildPig(string name);
+    void DoAction();
+    void DrawOnScreen();
+    
+};
+
+class Dragon: public Monster {
+public:
+    
+    Dragon(string name);
+    void DoAction();
+    void DrawOnScreen();
+    
 };
 
 #endif /* Header_h */
