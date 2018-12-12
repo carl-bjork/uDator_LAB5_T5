@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C075313321BFCA1E0093D6A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C075313221BFCA1E0093D6A9 /* main.cpp */; };
+		C0E57DAD21C13D4300B703DA /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E57DAB21C13D4300B703DA /* Creature.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		C075312F21BFCA1E0093D6A9 /* uDator_LAB5_T5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = uDator_LAB5_T5; sourceTree = BUILT_PRODUCTS_DIR; };
 		C075313221BFCA1E0093D6A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C075313921BFDF5D0093D6A9 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C0E57DAB21C13D4300B703DA /* Creature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C075313221BFCA1E0093D6A9 /* main.cpp */,
+				C0E57DAB21C13D4300B703DA /* Creature.cpp */,
 				C075313921BFDF5D0093D6A9 /* Header.h */,
 			);
 			path = uDator_LAB5_T5;
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E57DAD21C13D4300B703DA /* Creature.cpp in Sources */,
 				C075313321BFCA1E0093D6A9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

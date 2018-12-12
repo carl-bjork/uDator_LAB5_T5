@@ -9,6 +9,8 @@
 #ifndef Header_h
 #define Header_h
 
+#include <string>
+
 using namespace std;
 
 class Creature{
@@ -27,8 +29,8 @@ class Player: public Creature {
 public:
     
     Player(string name);
-    void DoAction();
-    void DrawOnScreen();
+    void DoAction() override;
+    void DrawOnScreen() override;
     
 };
 
