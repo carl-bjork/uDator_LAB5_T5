@@ -29,15 +29,15 @@ Dragon::Dragon(string name) {
 
 void Player::DoAction(){
     
-    cout << "is attacking!!";
+    cout << "is attacking Anton";
 }
 void Monster::DoAction(){
     
-    cout << "is doing monster stuff!!";
+    cout << "is probing stuff!!";
 }
 void WildPig::DoAction(){
     
-    cout << "is running!!!";
+    cout << "is programming c++, his biggest weakness.";
 }
 void Dragon::DoAction(){
     

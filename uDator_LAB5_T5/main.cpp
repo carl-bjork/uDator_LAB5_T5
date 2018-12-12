@@ -19,6 +19,7 @@ int main(){
     Monster mon("UFO");
     WildPig pig("Herman");
     Dragon drag("Anton");
+    
     Creature* object[4];
     object[0]=&hero;
     object[1]=&mon;
@@ -28,6 +29,11 @@ int main(){
     object[1]->DrawOnScreen();
     object[2]->DrawOnScreen();
     object[3]->DrawOnScreen();
+    
+//    hero.DrawOnScreen();
+//    mon.DrawOnScreen();
+//    pig.DrawOnScreen();
+//    drag.DrawOnScreen();
     
     return 0;
 }
